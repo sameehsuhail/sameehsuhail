@@ -1,7 +1,159 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>Home-Sameeh</title>
+	<title>Home-Sameeh</title>
+	<link rel = "icon" href = "home.png" type = "image/x-icon"> 
+	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+	font-family: roboto;
+	background-color: lightgrey; 
+}
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+ 	width: 20%;
+  	height: 35px;
+  	padding: 12px;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+  	margin-top: 6px;
+  	margin-bottom: 16px;
+  	resize: vertical;
+}
+
+input[type=submit] {
+  	background-color: #F58B20;
+  	color: white;
+  	padding: 12px 20px;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+
+.orgsync {
+	background-color: #F58B20;
+  	color: white;
+ 	padding: 12px 20px;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+  	float: left;
+}
+
+input[type=submit]:hover {
+  	background-color: #FFC728;
+}
+
+.container {
+ 	border-radius: 5px;
+  	background-color: lightgrey;
+  	padding: 20px;
+}
+.navbar {
+	align-items: right;
+	width: 100%;
+  	background-color: #FFFFFF;
+  	padding: 20px;
+  	text-decoration: none;
+  	align-items: right;
+}
+
+.fbfind {
+	float: right;
+}
+
+.queries {
+	display: inline-block;
+  	height: 50px; 
+  	background: #FFC728; 
+  	transition: all 0.6s; 
+  	padding-left: 20px; 
+  	padding-right: 20px; 
+  	line-height: 50px; 
+  	font-weight: 900;
+}
+
+footer{
+	background-color: #F58B20;
+	padding: 2%;
+	color: white;
+}
+
+
+</style>
 </head>
 <body>
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0" nonce="I39hDThe"></script>
+
+	<!-- Navigation -->
+	<div class="navbar">
+<nav>
+	
+  <a href="#home" style="color:black;text-decoration: none">Home</a>
+  <a href="#band" style="color:black;text-decoration: none">Band</a>
+  <a href="#tour" style="color:black;text-decoration: none">Tour</a>
+  <a href="#contact" style="color: black;text-decoration: none">Contact</a>
+</nav>
+</div>
+
+		
+<h1>Contact us</h1>
+
+<div class="container">
+
+
+  <form action="/action_page.php">
+  	<div class=fbfind>
+
+  		<div class="fb-page" data-href="https://www.facebook.com/isa.asu/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/isa.asu/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/isa.asu/">Facebook</a></blockquote>
+  		</div>
+
+<button class="orgsync" onclick="location.href='https://orgsync.com/77482/chapter'" type="button">Join us at OrgSync</button>
+
+
+  	</div>
+
+  	<div class="queries">Queries</div>
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name"><br>
+
+    <label for="asuid">ASU ID</label><br>
+    <input type="text" id="asuid" name="asuid"><br>
+
+    <label for="maj">Major</label><br>
+    <input type="text" id="maj" name="major"><br>
+
+    <label for="email">ASU Email</label><br>
+    <input type="text" id="email" name="asuemail"><br>
+
+    <label for="subject">Message</label><br>
+    <textarea id="subject" name="subject" style="height:200px" "width: 100px"></textarea><br>
+
+    <input type="checkbox" name="checkbox">
+    <label for="checkbox">Add me to the mailing list</label><br><br>
+
+    <input type="submit" value="Submit" style="width:200px">
+  </form>
+</div>
+
+	<!-- Footer -->
+<footer class="bbar">
+ 
+      <a href="mailto:sameehsuhail5@gmail.com" target="_blank" rel="noopener noreferrer"><img alt="Mail" src="https://toppng.com/uploads/preview/mail-icon-11549825367za0blj7xnt.png"
+         width=50" height="50"></a>
+          <a href=http://instagram.com/sameehsuhail" target="_blank" rel="noopener noreferrer"><img alt="Mail" src="https://toppng.com/uploads/preview/mail-icon-11549825367za0blj7xnt.png"
+         width=50" height="50"></a>
+          <a href="https://www.facebook.com/sameeh.suhail/" target="_blank" rel="noopener noreferrer"><img alt="Mail" src="https://toppng.com/uploads/preview/mail-icon-11549825367za0blj7xnt.png"
+         width=50" height="50"></a>
+  
+</footer>
 </body>
 </html>
+
+
+
