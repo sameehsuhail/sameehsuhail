@@ -450,6 +450,7 @@ input[type="password"], textarea {
 
 .col-twelve, .col-full {
     width: 100%;
+    font-size: xx-small;
 }
 
 
